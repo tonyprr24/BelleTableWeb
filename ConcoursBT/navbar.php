@@ -119,8 +119,76 @@
 									<i class="material-icons">search</i>
 								</a>
 								<ul class="dropdown-menu dropdown-menu-right">
-										<li class="dropdown-header">Rechercher</li>
-										
+									<li class="dropdown-header" style="width: 450px; height: 50px;">
+									<style>
+												#form1{
+												  margin-left:200px;
+												}
+												.side-nav li a {
+												  text-decoration:none;
+												}
+												#searchResults2{
+												  background-color:#666666;
+												}
+												#searchResults{
+												  background-color:#666666;
+												}
+												.right li a{
+												  padding-right:2em;
+												  text-decoration:none
+												}
+									</style>
+											
+											<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+										  
+											<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+											<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+									
+											<div class="input-field" style="max-width: 400pt;">
+												  <input id="search" type="search" required onkeyup="getBlogs(this.value,0);">
+												  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+												  <i class="material-icons">close</i>
+												  <div id="searchResults" ></div>
+											</div>
+											
+											<script>
+												 $(document ).ready(function(){
+													 $(".button-collapse").sideNav();
+												  })
+												function getBlogs(str,flag){
+														  if(str==""){
+															if(flag == 0) //laptop size
+															{
+															document.getElementById("searchResults").innerHTML="";
+														  }
+														  else{ //for mobile and laptop
+															 document.getElementById("searchResults2").innerHTML="";
+														  }
+															  return;
+														  }
+												   var searchedResults,x,txt="";
+														  var xhttp=new XMLHttpRequest();
+														   xhttp.onreadystatechange = function() {
+													if (this.readyState == 4 && this.status == 200) {
+														searchedResults=JSON.parse(this.responseText);
+														for(x in searchedResults)
+														{
+												//           get data from server and set it to txt
+														  txt="data"
+														}
+													if(flag == 0) //laptop size
+															{
+															document.getElementById("searchResults").innerHTML=txt;
+														  }
+														  else{ //for mobile and laptop
+															 document.getElementById("searchResults2").innerHTML=txt;
+														  }
+													}
+												}
+												}
+											</script>
+									</li>
 								</ul>
 				</li>
 				<li>
