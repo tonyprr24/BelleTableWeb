@@ -22,6 +22,11 @@
           Mentions légales
         </a>
       </li>
+      <li>
+        <a href="cgu.php">
+          CGU
+        </a>
+      </li>
           </ul>
       </nav>
       <div class="copyright pull-right">

@@ -61,11 +61,11 @@
 ?>
 
 <div class="wrapper">
-	<div class="header header-filter" style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">
+	<div class="header header-filter" style="background-image: url('assets/img/public.jpg');">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
-					<h1 class="title text-center">Bienvenue, <?php echo $_SESSION['Pseudo']; ?>.</h1>
+					<h1 class="title text-center">Espace public</h1>
 				</div>
 			</div>
 		</div>
@@ -82,6 +82,8 @@
                 </div>
             </div>
             <div class="col-md-8 col-md-offset-1">
+							<h2 class="text-center">Bienvenue, <?php echo $_SESSION['Pseudo']; ?>.</h2>
+							<br /><br />
                 Insérer barre de recherche
 								<br /><br />
 								Insérer liste d'oeuvres (tendances en premier)
