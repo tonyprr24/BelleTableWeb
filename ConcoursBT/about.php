@@ -18,7 +18,7 @@
 												se porte désormais volontaire pour mettre en avant les jeunes talents.</h4>
 	                    <br />
 	                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger btn-raised btn-lg">
-							<i class="fa fa-play"></i> Regardez notre vidéo
+							<i class="fa fa-play"></i>&nbsp;&nbsp; Regardez notre vidéo
 						</a>
 					</div>
                 </div>
