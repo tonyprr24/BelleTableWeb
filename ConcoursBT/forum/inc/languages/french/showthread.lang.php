@@ -1,0 +1,109 @@
+<?php
+/**
+ * MyBB 1.8 French Language Pack
+ * Copyright 2014 MyBB Group, All Rights Reserved *
+ *
+ */
+
+$l['delete_poll'] = "Supprimer le sondage";
+$l['close_thread'] = "Fermer le sujet";
+$l['stick_thread'] = "Épingler le sujet";
+
+$l['author'] = "Auteur";
+$l['message'] = "Message";
+$l['threaded'] = "Affichage hiérarchique";
+$l['linear'] = "Affichage linéaire";
+$l['thread_modes'] = "Modes de sujets";
+$l['next_oldest'] = "Sujet précédent";
+$l['next_newest'] = "Sujet suivant";
+$l['view_printable'] = "Voir une version imprimable";
+$l['send_thread'] = "Envoyer ce sujet à un ami";
+$l['subscribe_thread'] = "S’abonner au sujet";
+$l['unsubscribe_thread'] = "Se désabonner du sujet";
+$l['add_poll_to_thread'] = "Ajouter un sondage à ce sujet";
+$l['moderation_options'] = "Options de modération :";
+$l['delayed_moderation'] = "Modération différée";
+$l['thread_notes'] = "Éditer/Voir les notes";
+$l['open_close_thread'] = "Ouvrir/Fermer sujet";
+$l['approve_thread'] = "Approuver le sujet";
+$l['unapprove_thread'] = "Désapprouver le sujet";
+$l['soft_delete_thread'] = "Supprimer le sujet réversiblement";
+$l['restore_thread'] = "Restaurer le sujet";
+$l['delete_thread'] = "Supprimer le sujet définitivement";
+$l['delete_posts'] = "Supprimer des messages";
+$l['move_thread'] = "Déplacer/Copier sujet";
+$l['stick_unstick_thread'] = "Épingler/Désépingler sujet";
+$l['split_thread'] = "Fractionner le sujet";
+$l['merge_threads'] = "Fusionner les sujets";
+$l['remove_redirects'] = "Retirer les redirections";
+$l['remove_subscriptions'] = "Supprimer tous les abonnements";
+$l['poll'] = "Sondage :";
+$l['show_results'] = "Voir les résultats";
+$l['edit_poll'] = "Éditer le sondage";
+$l['public_note'] = "<b>Note :</b> C’est un sondage public. Les lecteurs pourront voir les choix des votants.";
+$l['total'] = "Total";
+$l['vote'] = "Voter !";
+$l['total_votes'] = "{1} vote(s)";
+$l['you_voted'] = "* Vous avez voté pour cette proposition.";
+$l['poll_closed'] = "Ce sondage est fermé.";
+$l['poll_closes'] = "Ce sondage se terminera dans : {1}";
+$l['already_voted'] = "Vous avez déjà voté pour ce sondage.";
+$l['undo_vote'] = "Annuler le vote";
+$l['quick_reply'] = "Réponse rapide";
+$l['message_note'] = "Entrez votre réponse à ce message ici.";
+$l['signature'] = "Signature";
+$l['email_notify'] = "Alerte par email";
+$l['disable_smilies'] = "Désactiver les smileys";
+$l['post_reply'] = "Poster une réponse";
+$l['post_reply_img'] = "Poster une réponse";
+$l['new_reply'] = "Nouvelle réponse";
+$l['search_button'] = "Rechercher";
+$l['post_thread'] = "Créer un sujet";
+$l['preview_post'] = "Aperçu du message";
+$l['rating_average'] = "Moyenne : {2} ({1} vote(s))";
+$l['rate_thread'] = "Noter ce sujet :";
+$l['thread_rating'] = "Note de ce sujet :";
+$l['similar_threads'] = "Sujets apparemment similaires...";
+$l['thread'] = "Sujet";
+$l['replies'] = "Réponses";
+$l['views'] = "Affichages";
+$l['lastpost'] = "Dernier message";
+$l['messages_in_thread'] = "Messages dans ce sujet";
+$l['users_browsing_thread'] = "Utilisateur(s) parcourant ce sujet :";
+$l['users_browsing_thread_guests'] = "{1} visiteur(s)";
+$l['users_browsing_thread_invis'] = "{1} utilisateur(s) invisible(s)";
+$l['users_browsing_thread_reading'] = "Lecture...";
+$l['inline_soft_delete_posts'] = "Supprimer les messages réversiblement";
+$l['inline_restore_posts'] = "Restaurer les messages";
+$l['inline_delete_posts'] = "Supprimer les messages définitivement";
+$l['inline_merge_posts'] = "Fusionner les messages";
+$l['inline_split_posts'] = "Fractionner les messages";
+$l['inline_move_posts'] = "Déplacer les messages";
+$l['inline_approve_posts'] = "Approuver les messages";
+$l['inline_unapprove_posts'] = "Désapprouver les messages";
+$l['inline_post_moderation'] = "Modération en ligne :";
+$l['inline_go'] = "Confirmer";
+$l['clear'] = "Effacer";
+$l['thread_closed'] = "Sujet fermé";
+$l['no_subject'] = "Pas de titre";
+$l['error_nonextnewest'] = "Il n’y a aucun sujet plus récent que celui que vous regardiez précédemment.";
+$l['error_nonextoldest'] = "Il n’y a aucun sujet plus ancien que celui que vous regardiez précédemment.";
+$l['quickreply_multiquote_selected'] = "Vous avez sélectionné un ou plusieurs messages à citer.";
+$l['quickreply_multiquote_now'] = "Citer ces messages maintenant";
+$l['or'] = "ou";
+$l['quickreply_multiquote_deselect'] = "les désélectionner";
+$l['search_thread'] = "Rechercher un sujet";
+$l['enter_keywords'] = "Entrer des mots-clés";
+$l['view_thread_notes'] = "Notes de sujet";
+$l['view_all_notes'] = "Voir toutes les notes";
+
+$l['save_changes'] = "Enregistrer les modifications";
+$l['cancel_edit'] = "Annuler l’édition";
+$l['quick_edit_update_error'] = "Il y a eu une erreur lors de l’édition de votre réponse :";
+$l['quick_reply_post_error'] = "Il y a eu une erreur lors de l’envoi de votre réponse :";
+$l['quick_delete_error'] = "Il y a eu une erreur lors de la suppression de votre réponse :";
+$l['quick_delete_success'] = "Le message a bien été supprimé.";
+$l['quick_delete_thread_success'] = "Le sujet a bien été supprimé.";
+$l['quick_restore_error'] = "Une erreur est survenue lors de la restauration de votre réponse :";
+$l['quick_restore_success'] = "Le message a bein été restauré.";
+
