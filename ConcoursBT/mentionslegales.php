@@ -42,12 +42,12 @@
                     Adresse de courrier électronique : <strong>contact@belletable.com</strong> <br />
                      <br />
                     Le Créateur du site est : <strong>belle-table.fr</strong><br />
-                    Les Responsables de la  publication est : <strong>Elias HAMADOUCHE, Tony PEREIRA</strong><br />
-                    Contactez les responsables de la publication : <strong>elias.hamadouche1@gmail.com, tony.pereira@outlook.com</strong><br />
+                    Le Responsable de la  publication est : <strong>Elias HAMADOUCHE</strong><br />
+                    Contactez le responsable de la publication : <strong>elias.hamadouche1@gmail.com</strong><br />
                     Le responsable de la publication est une <strong>personne morale</strong><br />
                     <br />
                     Le Webmaster est  : <strong>Elias HAMADOUCHE</strong><br />
-                    Contactez les Webmasters : <strong><a href="mailto:elias.hamadouche1@gmail.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr">elias.hamadouche1@gmail.com</a>, <a href="mailto:tony.pereira24@outlook.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr">tony.pereira24@outlook.com</a></strong><br />
+                    Contactez le Webmaster : <strong><a href="mailto:elias.hamadouche1@gmail.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr">elias.hamadouche1@gmail.com</a></strong><br />
                     L’hebergeur du site est : <strong>OVH 2 Rue Kellermann, 59100 Roubaix 59100 ROUBAIX</strong><br />
                     <u><strong>CREDITS :</strong></u> les mentions légales ont étés générées par <strong><a href="https://www.generer-mentions-legales.com">mentions légales site e commerce</a></strong><br />
                     Rédigez vos <strong><a href="https://editioneo.com/documents/4/conditions-generales-vente-ecommerce">Conditions générales de vente</a></strong></p>
