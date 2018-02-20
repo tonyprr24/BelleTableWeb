@@ -31,7 +31,7 @@
 					<?php
 						if (isset($_SESSION['IDUser']))
 						{
-							echo '<i class="material-icons">person</i>Bonjour, '.$_SESSION['Prenom'].' '.$_SESSION['Nom'].'.';
+							echo '<i class="material-icons">person</i> Bonjour, '.$_SESSION['Prenom'].' '.$_SESSION['Nom'].'.';
 						}
 					?>
 
@@ -68,9 +68,9 @@
 									</a>
 									<ul class="dropdown-menu dropdown-menu-right">
 											<li class="dropdown-header">Espace artistes</li>
-											<li><a href="artistes">Accueil</a></li>
+											<li><a href="artistes.php">Accueil</a></li>
 											<li class="divider"></li>
-											<li><a href="#">Ma page perso</a></li>
+											<li><a href="compteart.php">Ma page perso</a></li>
 											<li><a href="#">Parrainage</a></li>
 											<li class="divider"></li>
 											<li><a href="#">Liste des membres</a></li>
