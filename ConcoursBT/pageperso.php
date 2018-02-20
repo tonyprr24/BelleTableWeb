@@ -33,7 +33,7 @@
 ?>
 
     <div class="wrapper">
-		<div class="header header-filter" style="background-image: url('assets/img/idea.jpg');"></div>
+		<div class="header header-filter" style="background-image: url('assets/img/pageperso.jpg');"></div>
 
 		<div class="main main-raised">
 			<div class="profile-content">
