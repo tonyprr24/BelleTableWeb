@@ -31,7 +31,7 @@
 					<?php
 						if (isset($_SESSION['IDUser']))
 						{
-							echo '<i class="material-icons">person</i>Bonjour, '.$_SESSION['Prenom'].' '.$_SESSION['Nom'].'.';
+							echo '<i class="material-icons">person</i> Bonjour, '.$_SESSION['Prenom'].' '.$_SESSION['Nom'].'.';
 						}
 					?>
 
@@ -70,7 +70,7 @@
 											<li class="dropdown-header">Espace artistes</li>
 											<li><a href="artistes.php">Accueil</a></li>
 											<li class="divider"></li>
-											<li><a href="'.$_SESSION['Pseudo'].'.php">Ma page perso</a></li>
+											<li><a href="pageperso.php">Ma page perso</a></li>
                       <li><a href="upload.php">Déposer une oeuvre</a></li>
 											<li><a href="parrainer.php">Parrainage</a></li>
 											<li class="divider"></li>
@@ -116,14 +116,20 @@
 					</a>
 				</li>
 				<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="material-icons">search</i>
-								</a>
-								<ul class="dropdown-menu dropdown-menu-right">
-										<li class="dropdown-header">Rechercher</li>
-
-								</ul>
-				</li>
+	                                		<a href="#search" class="dropdown-toggle" data-toggle="dropdown">
+	                                			<i class="material-icons">search</i>
+											</a>
+	                                    	<ul class="dropdown-menu dropdown-menu-right">
+	                                        	<li>
+	                                        		<form action="search.php" method="GET">
+	                                        		<div class="form-group label-floating" style="margin-left: 20px; margin-right: 30px; width: 300px;">
+								<label class="control-label">Rechercher</label>
+								<input type="text" class="form-control">
+							</div>
+						</form>
+						</li>
+		                                    </ul>
+	                                	</li>
 				<li>
 					<a rel="tooltip" title="Suivez-nous sur Twitter" data-placement="bottom" href="https://twitter.com/BelleTable" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-twitter"></i>

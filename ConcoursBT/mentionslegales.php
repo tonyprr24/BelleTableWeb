@@ -42,12 +42,12 @@
                     Adresse de courrier électronique : <strong>contact@belletable.com</strong> <br />
                      <br />
                     Le Créateur du site est : <strong>belle-table.fr</strong><br />
-                    Le Responsable de la  publication est : <strong>Elias HAMADOUCHE</strong><br />
-                    Contactez le responsable de la publication : <strong>elias.hamadouche1@gmail.com</strong><br />
+                    Le Responsables de la  publication sont : <strong>Elias HAMADOUCHE, Tony PEREIRA</strong><br />
+                    Contactez les responsable de la publication : <strong>elias.hamadouche1@gmail.com, tony.pereira1@gmail.com</strong><br />
                     Le responsable de la publication est une <strong>personne morale</strong><br />
                     <br />
-                    Le Webmaster est  : <strong>Elias HAMADOUCHE</strong><br />
-                    Contactez le Webmaster : <strong><a href="mailto:elias.hamadouche1@gmail.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr">elias.hamadouche1@gmail.com</a></strong><br />
+                    Les Webmasters sont  : <strong>Elias HAMADOUCHE, Tony PEREIRA</strong><br />
+                    Contactez les Webmasters : <strong><a href="mailto:elias.hamadouche1@gmail.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr">elias.hamadouche1@gmail.com</a>, <a href="mailto:tony.pereira1@gmail.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr">tony.pereira1@gmail.com</a></strong><br />
                     L’hebergeur du site est : <strong>OVH 2 Rue Kellermann, 59100 Roubaix 59100 ROUBAIX</strong><br />
                     <u><strong>CREDITS :</strong></u> les mentions légales ont étés générées par <strong><a href="https://www.generer-mentions-legales.com">mentions légales site e commerce</a></strong><br />
                     Rédigez vos <strong><a href="https://editioneo.com/documents/4/conditions-generales-vente-ecommerce">Conditions générales de vente</a></strong></p>
@@ -72,7 +72,7 @@
 
                     <p style="text-align:justify"><br />
                     Le proprietaire du site est propriétaire des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site, notamment les textes, images, graphismes, logo, icônes, sons, logiciels…<br />
-                    Toute reproduction, représentation, modification, publication, adaptation totale ou partielle des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable à l'email : <a href="mailto:elias.hamadouche1@gmail.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr"><strong>elias.hamadouche1@gmail.com</strong></a> .<br />
+                    Toute reproduction, représentation, modification, publication, adaptation totale ou partielle des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable aux emails : <a href="mailto:elias.hamadouche1@gmail.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr"><strong>elias.hamadouche1@gmail.com</strong></a>, <a href="mailto:tony.pereira1@gmail.com?subject=Contact ï¿½ partir des mentions lï¿½gales via le site www.belle-table.fr"><strong>tony.pereira1@gmail.com</strong></a> .<br />
                     Toute exploitation non autorisée du site ou de l’un quelconque de ces éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.<br />
                      </p>
                    </div>
