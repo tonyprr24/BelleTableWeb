@@ -31,7 +31,7 @@
 					<?php
 						if (isset($_SESSION['IDUser']))
 						{
-							echo '<i class="material-icons">person</i> Bonjour, '.$_SESSION['Prenom'].' '.$_SESSION['Nom'].'.';
+							echo '<li><i class="material-icons">person</i> Bonjour, '.$_SESSION['Prenom'].' '.$_SESSION['Nom'].'.</li>';
 						}
 					?>
 
@@ -104,10 +104,11 @@
 								<ul class="dropdown-menu dropdown-menu-right">
 										<li class="dropdown-header">Espace membre</li>
 										<li><a href="parametres.php">Paramètres</a></li>
-										<li><a href="deconnexion.php">Déconnexion</a></li>
+										
 								</ul>
 							</li>';
 						}
+
 					?>
 
 				<li>
@@ -145,6 +146,16 @@
 						<i class="fa fa-instagram"></i>
 					</a>
 				</li>
+				<?php
+						if (isset($_SESSION['IDUser']))
+						{
+							echo "<li>
+					<a rel='tooltip' title='Se déconnecter' data-placement='bottom' href='deconnexion.php' target='_blank' class='btn btn-white btn-simple btn-just-icon'>
+						<i class='material-icons'>exit_to_app</i>
+					</a>
+				</li>";
+						}
+				?>
 
 	    	</ul>
 	    </div>
