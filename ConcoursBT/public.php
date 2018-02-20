@@ -82,7 +82,7 @@
                 </div>
             </div>
             <div class="col-md-8 col-md-offset-1">
-							<h2 class="text-center">Bienvenue, <?php echo $_SESSION['Pseudo']; ?>.</h2>
+							<h2 class="text-center">Bienvenue, <?php echo $_SESSION['Prenom'];?>&nbsp;<?php echo $_SESSION['Nom']; ?>.</h2>
 							<br /><br />
                 Insérer barre de recherche
 								<br /><br />

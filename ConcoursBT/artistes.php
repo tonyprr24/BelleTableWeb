@@ -61,11 +61,11 @@
 ?>
 
 <div class="wrapper">
-	<div class="header header-filter" style="background-image: url('assets/img/public2.jpg');">
+	<div class="header header-filter" style="background-image: url('assets/img/public.jpg');">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
-					<h1 class="title text-center">Espace artiste</h1>
+					<h1 class="title text-center">Espace Artistes</h1>
 				</div>
 			</div>
 		</div>
@@ -75,25 +75,6 @@
         <div class="section">
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
-                <div class="fixed-section" data-spy="affix" data-offset-top="340">
-                    Membres en ligne :
-										<?php ?>
-                </div>
-            </div>
-            <div class="col-md-8 col-md-offset-1">
-							<h2 class="text-center">Bienvenue, <?php echo $_SESSION['Pseudo']; ?>.</h2>
-							<br /><br />
-                <a href="upload.php">Déposer une oeuvre</a>
-								<br /><br />
-								<a href="<?php echo $_SESSION['Pseudo']; ?>.php">Ma page perso</a>
-								<br /><br />
-								Insérer liste d'oeuvres (tendances en premier)
-								<br /><br />
-								A droite, afficher classement temporaire des meilleures oeuvres du moment
-                <!-- end container -->
-            </div>
-
         </div>
         </div>
     </div>
