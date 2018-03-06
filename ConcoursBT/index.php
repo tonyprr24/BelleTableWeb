@@ -61,7 +61,10 @@
 							<div class="content">
 								<div class="tab-content text-center">
 									<div class="tab-pane active" id="profile">
-										<p>L'entreprise BELLETABLE à décider de sponsorisé les jeunes talents dans divers domaines artistiques : <b>Musique, Vidéo, Image</b> ou encore <b>l'Ecriture</b>. Le but est de pouvoir valoriser votre talent afin de vous faire connaître auprès de la population francophone. Alors n'attendez plus, montrer nous votre talent ! <i class="material-icons">sentiment_very_satisfied</i></p>
+										<p>L'entreprise BELLETABLE à décidé de sponsoriser les jeunes talents dans divers domaines artistiques :
+											<b>Musique, vidéo, image</b> ou encore <b>l'écriture</b>. Le but est de pouvoir valoriser votre talent afin de vous faire connaître
+											auprès de la population francophone. Alors n'attendez plus, montrez-nous votre talent !
+											<i class="material-icons">sentiment_very_satisfied</i></p>
 									</div>
 									<div class="tab-pane" id="messages">
 										 <video class="responsive-video" controls width="100%">

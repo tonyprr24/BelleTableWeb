@@ -1,5 +1,5 @@
 <?php
- 	session_start();
+ 	@session_start();
 ?>
 <!-- Navbar -->
 <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll navbar-warning">
@@ -31,7 +31,7 @@
 					<?php
 						if (isset($_SESSION['IDUser']))
 						{
-							echo '<i class="material-icons">person</i>Bonjour, '.$_SESSION['Prenom'].' '.$_SESSION['Nom'].'.';
+							echo '<li><i class="material-icons">person</i> Bonjour, '.$_SESSION['Prenom'].' '.$_SESSION['Nom'].'.</li>';
 						}
 					?>
 
@@ -68,10 +68,11 @@
 									</a>
 									<ul class="dropdown-menu dropdown-menu-right">
 											<li class="dropdown-header">Espace artistes</li>
-											<li><a href="artistes">Accueil</a></li>
+											<li><a href="artistes.php">Accueil</a></li>
 											<li class="divider"></li>
-											<li><a href="#">Ma page perso</a></li>
-											<li><a href="#">Parrainage</a></li>
+											<li><a href="pageperso.php">Ma page perso</a></li>
+                      <li><a href="upload.php">Déposer une oeuvre</a></li>
+											<li><a href="parrainer.php">Parrainage</a></li>
 											<li class="divider"></li>
 											<li><a href="#">Liste des membres</a></li>
 									</ul>
@@ -102,31 +103,17 @@
 								</a>
 								<ul class="dropdown-menu dropdown-menu-right">
 										<li class="dropdown-header">Espace membre</li>
-										<li><a href="settings.php">Paramètres</a></li>
-										<li><a href="deconnexion.php">Déconnexion</a></li>
+										<li><a href="parametres.php">Paramètres</a></li>
+										
 								</ul>
 							</li>';
 						}
+
 					?>
 
 				<li>
 					<a href="forum">
 						<i class="material-icons">forum</i> Forum
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Suivez-nous sur Twitter" data-placement="bottom" href="https://twitter.com/BelleTable" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-twitter"></i>
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Suivez-nous sur Facebook" data-placement="bottom" href="https://www.facebook.com/BelleTable" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-facebook-square"></i>
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Suivez-nous sur Instagram" data-placement="bottom" href="https://www.instagram.com/BelleTable" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-instagram"></i>
 					</a>
 				</li>
 				<li class="dropdown">
@@ -144,6 +131,31 @@
 						</li>
 		                                    </ul>
 	                                	</li>
+				<li>
+					<a rel="tooltip" title="Suivez-nous sur Twitter" data-placement="bottom" href="https://twitter.com/BelleTable" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a rel="tooltip" title="Suivez-nous sur Facebook" data-placement="bottom" href="https://www.facebook.com/BelleTable" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+						<i class="fa fa-facebook-square"></i>
+					</a>
+				</li>
+				<li>
+					<a rel="tooltip" title="Suivez-nous sur Instagram" data-placement="bottom" href="https://www.instagram.com/BelleTable" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+						<i class="fa fa-instagram"></i>
+					</a>
+				</li>
+				<?php
+						if (isset($_SESSION['IDUser']))
+						{
+							echo "<li>
+					<a rel='tooltip' title='Se déconnecter' data-placement='bottom' href='deconnexion.php' target='_blank' class='btn btn-white btn-simple btn-just-icon'>
+						<i class='material-icons'>exit_to_app</i>
+					</a>
+				</li>";
+						}
+				?>
 
 	    	</ul>
 	    </div>

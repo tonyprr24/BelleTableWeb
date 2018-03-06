@@ -1,5 +1,10 @@
 <?php
 	include_once "header.php";
+	session_start();
+	if ($_SESSION['Type'] == '2')
+	{
+		exit(header('Location:artistes.php'));
+	}
 ?>
 <style>
 	pre.prettyprint{
